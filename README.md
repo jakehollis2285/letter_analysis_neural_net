@@ -48,7 +48,7 @@ This application accepts input in the following form:
 
 For each of the above examples, the input will be flattened as a development step. To see input examples, view ./data/training_set.json or ./data/testing_set.json
 
-There are more examples of the character set I have used in ./data/char_set_examples.png; the character set is a 5x5 pixel characterset with all english letters, you can see flattened examples in ./data/alphabet.json
+There are more examples of the character set I have used in ./data/char_set_examples.png; the character set is a 5x5 pixel characterset with all english letters, you can see flattened examples in ./data/alphabet.json. The file alphabet.json is incomplete since the task in this project was to be able to differentiate between the letters "X", "O", and an arbitrary third letter (in my case "A").
 
 The files ./data/training_set.json and ./data/testing_set.json are the INPUT files for the neural network application. Replace these files to define new training and testing sets. These files are JSON spec documents and the data layout MUST be followed.
 
