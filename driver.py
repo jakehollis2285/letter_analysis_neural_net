@@ -49,8 +49,8 @@ def main():
 	print ("Test Y shape: " + str(test_y.shape))
 
 
-	iterations = 2000
-	learning_rate = 0.0005
+	iterations = 200
+	learning_rate = 0.005
 	# call neural network model
 	train_pred_y, test_pred_y, costs = neuralNet.model(train_x, train_y, test_x, test_y, iterations, learning_rate)
 
