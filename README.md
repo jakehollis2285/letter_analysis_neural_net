@@ -1,3 +1,20 @@
+Dr. Scherger, this is a generic implementation of a 2 layer neural network to solve the given problem.
+The application functions as follows:
+	1. user defines set of characters in training set
+	2. user defines set of characters in testing set
+	3. run driver.py
+		a. driver.py will load the data using ioHandler.py
+		b. ioHandler.py will parse any 2-character definition of a 25x1 array of characters to represent an english letter
+		c. 2-character samples are converted to 0-1 samples
+		d. driver.py will pass the training / testing set to neuralNet.py
+		e. neuralNet.py will execute gradient descent on the training set
+		f. neuralNet.py will execute predict on the testing set
+
+	4. if driver.py does not correctly capture the correct values try the following:
+		a. increase the number of iterations in driver.py
+			i. optionally also decrease the learning_rate for more "fine tuned" gradient descent
+		b. rerun driver.py and inspect the cost output graph and the testing and training validation output parameters
+
 The important logical files in this project are:
 
 	driver.py
