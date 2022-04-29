@@ -1,4 +1,4 @@
-Dr. Scherger, this is a generic implementation of a 2 layer neural network to solve the given problem.
+This is a generic implementation of a 2 layer neural network to solve the given problem.
 The application functions as follows:
 	1. user defines set of characters in training set
 	2. user defines set of characters in testing set
