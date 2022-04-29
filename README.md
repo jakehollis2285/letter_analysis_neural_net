@@ -15,12 +15,26 @@ The application functions as follows:
 			i. optionally also decrease the learning_rate for more "fine tuned" gradient descent
 		b. rerun driver.py and inspect the cost output graph and the testing and training validation output parameters
 
+
+The Important development files in this project are:
+	
+	./bootstrap.sh
+		- prepare virtual enviroment (install numpy and matplotlib using python venv and requirements.txt)
+	
+	./run.sh
+		- run driver.py using the configured virtual environment
+
+	./clean.sh
+		- delete all files related to the virtual enviroment
+		- used primarily for cleaning the git repository before pushing
+
+
 The important logical files in this project are:
 
 	driver.py
 		- main application entrypoint
 		- run the application using:
-			python3 driver.py
+			./run.sh
 		- edit this file to change number of iterations and learning rate for each neural network runthrough
 
 	ioHandler.py
